@@ -1,0 +1,18 @@
+{% extends 'menu.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block pagename %}
+    {{ head }}
+{% endblock %}
+
+{% block content%}
+    <h2>
+        Извините, Ваша корзина пуста...
+    </h2>
+    <form action="/platform/">
+        <button><h3>{{ b_back }}<h3></button>
+    </form>
+{% endblock %}
